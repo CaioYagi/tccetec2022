@@ -19,6 +19,10 @@ a:hover:before {
   transform: scale(1) !important;
 }
 
+.bg-etec{
+  background-color: #3E4663;
+}
+
 .nav-link:before {
   content: "";
   width: 100%;
