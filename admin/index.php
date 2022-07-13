@@ -32,7 +32,7 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top" style="background-color:#3E4663;">
         <div class="container">
             <a class="navbar-brand" href="index.php">
                 <img src="../img/logo.png" alt="" width="100px">
@@ -42,15 +42,15 @@
             </button>
             <div class="collapse navbar-collapse navbar-collapse-fg-0" id="navbarCollapse">
                 <div class="navbar-nav justify-content-end">
-                    <a class="nav-item nav-link active" href="index.php">Home</a>
-                    <a class="nav-item nav-link" href="cursos.php">Cursos</a>
-                    <a class="nav-item nav-link" href="http://etecitu.com.br/2020/" target="_blank">EPA Virtual</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Notícias</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Processo Seletivo</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Vestibulinho</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Calendário</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Plano Escolar</a>
-                    <a class="nav-item nav-link" href="?p=produto/consultar">Contato</a>
+                    <a class="nav-item nav-link active" href="index.php" style="color: #aaaaaa ;">Home</a>
+                    <a class="nav-item nav-link" href="cursos.php" style="color: #aaaaaa ;">Cursos</a>
+                    <a class="nav-item nav-link" href="http://etecitu.com.br/2020/" target="_blank" style="color: #aaaaaa ;">EPA Virtual</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar" style="color: #aaaaaa ;">Notícias</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar"style="color: #aaaaaa ;" >Processo Seletivo</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar" style="color: #aaaaaa ;">Vestibulinho</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar" style="color: #aaaaaa ;">Calendário</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar" style="color: #aaaaaa ;">Plano Escolar</a>
+                    <a class="nav-item nav-link" href="?p=produto/consultar" style="color: #aaaaaa ;">Contato</a>
                 </div>
             </div>
         </div>
@@ -201,9 +201,9 @@
                 </div>
             </div>
         </div>
-
+        <div class="container">
         <!-- ACESSO RÁPIDO !-->
-        <div class="row mb-5">
+        <div class="row mb-5" >
             <div class="col-12">
                 <h2 class="display-5 text-center">Acesso Rápido</h2>
             </div>
@@ -258,7 +258,7 @@
                 <div class="row mb-5">
                     <div class="col-sm-12">
                         <div class="card mb-3">
-                            <img class="card-img-top news-img" src="../img/" alt="Imagem de capa do card">
+                            <img class="card-img-top news-img" src="../img/claudemir.jpg" alt="Imagem de capa do card">
                             <div class="card-body">
                                 <h5 class="card-title">Notícia1</h5>
                                 <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
@@ -281,13 +281,61 @@
                 </div>
             </div>
         </section>
-
-
-
-        <!-- FOOTER !-->
-
-
     </div>
+</div>
+
+
+ <!-- FOOTER !-->
+
+ <!-- FOOTER !-->
+ <footer>
+        <div class="container">
+            <div class="footer-links text-left">
+                <span>
+                    <a href="contato.php">Contato</a>
+                </span>
+                <span>
+                    <a href="https://www.vestibulinhoetec.com.br/home/">Vestibulinho</a>
+                </span>
+                <span>
+                    <a href="processoseletivo.php">Processo Seletivo</a>
+                </span>
+                <span>
+                    <a href="https://nsa.cps.sp.gov.br/">NSA</a>
+                </span>
+                <span>
+                    <a href="http://www.etecitu.com.br/2019/arquivos/index/manualTCC.pdf">Manual do TCC</a>
+                </span>
+                <span>
+                    <a href="secretariaacademica.php">Secretaria Acadêmica</a>
+                </span>
+                <span>
+                    <a href="planogestao.php">Plano Plurianual de Gestão</a>
+                </span>
+                <span>
+                    <a href="https://www.facebook.com/EtecdeItu" class="footer-icons" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/etecmartinho/" class="footer-icons" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCgiX2_tK8Imaf5OpcQNK-yA" class="footer-icons" target="_blank">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </span>
+            </div>
+            <hr style="color: #252a3c; margin: 1rem 0;">
+            <div class="row align-items-center">
+                <div class="col-9 text-center">
+                    <p>Copyright © 2022 - Etec Martinho di Ciero - Centro Paula Souza - Avenida Barata Ribeiro, 410 Vila Prudente de Moraes - Itu/SP</p>
+                </div>
+                <div class="col-3 text-center">
+                    <img src="../img/logo.png" alt="" class="mb-2" style="width: 80px;">
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>

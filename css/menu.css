@@ -5,6 +5,7 @@ a {
   -webkit-transition: 0.3s all ease !important;
   -o-transition: 0.3s all ease !important;
   transition: 0.3s all ease !important;
+  color: #aaaaaa ;
 }
 
 a:hover {
